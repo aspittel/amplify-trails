@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+.container {
+  display: flex;
+}
+
+.maplibregl-popup-content, .mapboxgl-popup-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+  z-index: 5 !important;
+  max-width: 95% !important;
+}
+
+.maplibregl-popup-close-button, .mapboxgl-popup-close-button {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
